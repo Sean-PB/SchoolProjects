@@ -1,0 +1,23 @@
+Sean Brandon, spbrando
+2021 Spring CSE101 pa6
+README
+
+Dictionary.h        - This is the header file which contains the prototypes of the functions to be
+                      used in Dictionary.c.
+
+Dictionary.c        - This is the file which contains the full definitions of the functions for the
+                      Dictionary ADT.
+
+DictionaryTest.c    - Tests Dictionary operations in isolation.
+
+Lex.c               - Client file for this project.
+
+README              - The file you're reading. Serves as a table of contents for the pa1 directory.
+
+Makefile            - The Makefile is what builds the executables. The following lines describe
+                      possible commands:
+                      -  make                     makes Lex
+                      -  make DictionaryTest      makes DictionaryTest
+                      -  make clean               removes all binaries
+                      -  make check1              checks DictionaryTest for memory leaks
+                      -  make check2              checks Lex for memory leaks on in4

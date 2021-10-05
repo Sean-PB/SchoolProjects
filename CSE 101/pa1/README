@@ -1,0 +1,24 @@
+Sean Brandon, spbrando
+2021 Spring CSE101 pa1
+README
+
+List.h          - This is the header file which contains the prototypes of the functions to be used
+                  in List.c.
+
+List.c          - This is the file which contains the functionality of the List ADT.
+
+ListClient.c    - This is a client file that tests the functionality of the List ADT.
+
+Lex.c           - This is the driver program which, when built, takes in an input and output file.
+                  Each line of the input file will be indirectly lexicographically sorted and
+                  printed into the given output file in ascending lexicographic order.
+
+README          - The file you're reading. Serves as a table of contents for the pa1 directory.
+
+Makefile        - The Makefile is what builds the executables. The following lines describe possible
+                  commands:
+                  -     make                   makes Lex
+                  -     make ListClient        makes ListClient
+                  -     make clean             removes all binaries
+                  -     make checkClient       checks ListClient for memory errors
+                  -     make checkLex          checks Lex for memory errors

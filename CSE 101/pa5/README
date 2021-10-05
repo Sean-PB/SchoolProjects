@@ -1,0 +1,34 @@
+Sean Brandon, spbrando
+2021 Spring CSE101 pa5
+README
+
+List.h              - This is the header file which contains the prototypes of the functions to be
+                      used in List.cpp.
+
+List.cpp            - This is the file which contains the full definitions of the functions of the
+                      List ADT.
+
+ListTest.cpp        - Tests List operations in isolation.
+
+BigInteger.h        - This is the header file which contains the prototypes of the functions to be
+                      used in BigInteger.cpp.
+
+BigInteger.cpp      - This is the file which contains the full definitions of the functions of the
+                      BigInteger ADT.
+
+BigIntegerTest.cpp  - Tests BigInteger operations in isolation.
+
+Arithmetic.cpp      - Client file that takes an input and output file. In the input file are 2
+                      numbers, A and B, each on their own line with a blank line separating them.
+                      Then the following operations will be printed to the output file:
+                      A, B, A + B, A - B, A - A, 3A - 2B, AB, A^2, B^2, 9A^4 + 16B^5
+
+README              - The file you're reading. Serves as a table of contents for the pa1 directory.
+
+Makefile            - The Makefile is what builds the executables. The following lines describe
+                      possible commands:
+                        -  make             TOP client
+                        -  make clean       removes object files
+                        -  make check1      runs valgrind on TOP client to check for memory errors
+                        -  make check2      runs valgrind on BigIntegerTest to check for memory
+                                            errors

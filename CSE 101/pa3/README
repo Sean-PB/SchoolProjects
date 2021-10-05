@@ -1,0 +1,34 @@
+Sean Brandon, spbrando
+2021 Spring CSE101 pa3
+README
+
+List.h              - This is the header file which contains the prototypes of the functions to be
+                    used in List.c.
+
+List.c              - This is the file which contains the full definitions of the functions of the
+                    List ADT.
+
+Graph.h             - This is the header file which contains the prototypes of the functions to be
+                    used in Graph.c.
+
+Graph.c             - This is the file which contains the full definitions of the functions of the
+                    Graph ADT. I decided to simply add the new functionality needed for pa3 onto the
+                    Graph module made in pa2. I chose to use the 4th implantation of visit mentioned
+                    in the pa3 doc: Just give Visit() its own local copy of time, then let it take
+                    the current value of time as input, and return the new value of time when it's
+                    done.
+
+GraphTest.c         - Tests Graph operations in isolation.
+
+FindComponents.c    - This is the driver program which, when built, takes in an input and output
+                    file.
+
+README              - The file you're reading. Serves as a table of contents for the pa1 directory.
+
+Makefile            - The Makefile is what builds the executables. The following lines describe
+                    possible commands:
+                        -  make                     makes FindComponents
+                        -  make GraphClient         makes GraphClient
+                        -  make clean               removes binaries
+                        -  make checkFind           tests FindComponents for memory leaks on in3
+                        -  make checkClient         tests GraphClient for memory leaks

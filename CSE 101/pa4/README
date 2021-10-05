@@ -1,0 +1,23 @@
+Sean Brandon, spbrando
+2021 Spring CSE101 pa4
+README
+
+List.h          - This is the header file which contains the prototypes of the functions to be
+                  used in List.cpp.
+
+List.cpp        - This is the file which contains the full definitions of the functions of the
+                  List ADT.
+
+ListTest.cpp    - Tests List operations in isolation.
+
+Shuffle.cpp     - This is the driver program which, when built, takes in an input integer.
+
+README          - The file you're reading. Serves as a table of contents for the pa1 directory.
+
+Makefile        - The Makefile is what builds the executables. The following lines describe
+                  possible commands:
+                    -  make                makes Shuffle
+                    -  make ListClient     make ListClient
+                    -  make clean          removes binary files
+                    -  make check1         runs valgrind on ListClient
+                    -  make check2         runs valgrind on Shuffle with command line argument 35

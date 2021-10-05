@@ -1,0 +1,29 @@
+Sean Brandon, spbrando
+2021 Spring CSE101 pa2
+README
+
+List.h          - This is the header file which contains the prototypes of the functions to be used
+                  in List.c.
+
+List.c          - This is the file which contains the full definitions of the functions of the List
+                  ADT.
+
+Graph.h         - This is the header file which contains the prototypes of the functions to be used
+                  in Graph.c.
+
+Graph.c         - This is the file which contains the full definitions of the functions of the Graph
+                  ADT.
+
+GraphTest.c     - Tests Graph operations in isolation.
+
+FindPath.c      - This is the driver program which, when built, takes in an input and output file.
+
+README          - The file you're reading. Serves as a table of contents for the pa1 directory.
+
+Makefile        - The Makefile is what builds the executables. The following lines describe possible
+                  commands:
+                  -     make                     makes FindPath
+                  -     make GraphTest           makes GraphTest
+                  -     make clean               removes binaries
+                  -     make checkFind           tests FindPath for memory leaks on in3
+                  -     make checkTest           tests GraphTest for memory leaks
