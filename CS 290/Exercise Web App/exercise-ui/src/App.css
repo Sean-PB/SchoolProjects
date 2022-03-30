@@ -1,0 +1,105 @@
+body {
+  background-color: #14213D;
+  color: #E5E5E5;
+}
+
+.App {
+  text-align: center;
+  
+  position: relative;
+  min-height: 100vh;
+}
+
+header{
+  font-size: larger;
+  background-color: #ff7300;
+  color: #ffffff;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.icon{
+  position: relative;
+  font-size: 333%;
+  margin: -1.25% 5%;
+}
+
+.item-button:hover {
+  background-color: #14213D;
+  color: #FCA311;
+}
+
+Nav {
+  background-color: #FCA311;
+  border-radius: 25px;
+  padding: 1%;
+}
+nav a {
+  border-radius: 5px;
+  padding: 1% 5%;
+  margin: 1% 2%;
+  display: inline;
+  background-color: #E5E5E5;
+}
+nav a:hover {
+  background-color: #14213D;
+  color: #FCA311;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #E5E5E5;
+  padding-bottom: 5%;    /* Footer height */
+}
+
+.input-table {
+  border-radius: 15px;
+  text-align: left;
+  font-size: calc(2px + 2vmin);
+}
+input {
+  font-size: large;
+  outline:#FCA311 solid 3px;
+}
+select {
+  font-size: large;
+  outline:#FCA311 solid 3px;
+}
+button {
+  font-size: large;
+  margin: 0 auto;
+  margin-top: 1%;
+  outline:#FCA311 solid 3px;
+}
+button:hover {
+  background-color: #FCA311;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: black
+}
+
+tr:nth-child(odd){background-color: #ffffff;}
+tr:nth-child(even){background-color: #bbbbbb;}
+
+tr:hover {background-color: #ffe9c6;}
+
+th {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #FCA311;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #FCA311;
+}
